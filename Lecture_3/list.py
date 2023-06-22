@@ -1,5 +1,5 @@
 # создание пустого списка
-list_1 = list() 
+list_1 = list()
 
 # создание заполненного списка
 list_2 = list((3.14, True, "Hello, World!"))
@@ -18,7 +18,7 @@ print(my_list[0])
 print(my_list[-1])
 
 # Ошибка
-# print(my_list(6)) 
+# print(my_list(6))
 # print(my_list[-10])
 
 
@@ -96,5 +96,6 @@ print(my_list)
 my_list = [2, 4, 6, 8, 10, 12]
 my_list.remove(6)
 print(my_list)
-my_list.remove(3)
-print(my_list)
+# Ошибка:
+# my_list.remove(3)
+# print(my_list)
